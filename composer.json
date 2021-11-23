@@ -1,0 +1,62 @@
+{
+    "name": "yaroslawww/laravel-i18n-strings-batch",
+    "description": "Simple way to transfer strings to js component without load all lang files or additional ajax requests.",
+    "keywords": [
+        "laravel",
+        "js-i18n"
+    ],
+    "homepage": "https://github.com/yaroslawww/laravel-i18n-strings-batch",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yaroslav Georgitsa",
+            "email": "yaroslav.georgitsa@gmail.com",
+            "homepage": "https://github.com/yaroslawww",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.0"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.2",
+        "orchestra/testbench": "^6.21",
+        "phpunit/phpunit": "^9.5",
+        "psalm/plugin-laravel": "^1.5",
+        "vimeo/psalm": "^4.10"
+    },
+    "autoload": {
+        "files": [
+            "helpers.php"
+        ],
+        "psr-4": {
+            "I18nStringsBatch\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "I18nStringsBatch\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "psalm": "vendor/bin/psalm",
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage",
+        "format": "vendor/bin/php-cs-fixer fix --allow-risky=yes"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "I18nStringsBatch\\ServiceProvider"
+            ],
+            "aliases": {
+                "I18nStringsBatch": "I18nStringsBatch\\Facades\\I18nStringsBatch"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
