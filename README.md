@@ -54,11 +54,11 @@ i18n_strings_batch_json("modal-confirmation")
 
 ```html
 <licenses-list
-    :i18n-batch='@i18nBatch("licenses-list")'
+    :i18n-batch='@transBatch("licenses-list")'
 />
 <!-- or -->
 <licenses-list
-    :i18n-batch='@i18nBatch(["licenses-list", "modal-confirmation"])'
+    :i18n-batch='@transBatch(["licenses-list", "modal-confirmation"])'
 />
 ```
 
@@ -71,7 +71,7 @@ Example you can find [there](./docs/vue.md)
 ![](./docs/assets/phpstorm.png)
 
 ```txt
-i18nBatch
+transBatch
 <?php echo i18n_strings_batch_json(
 ); ?>
 ```

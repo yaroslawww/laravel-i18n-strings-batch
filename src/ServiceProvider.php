@@ -8,7 +8,12 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {
     public function boot()
     {
+        /* @deprecated - phpstorm not supports num regex */
         Blade::directive('i18nBatch', function ($expression) {
+            return "<?php echo i18n_strings_batch_json($expression); ?>";
+        });
+
+        Blade::directive('transBatch', function ($expression) {
             return "<?php echo i18n_strings_batch_json($expression); ?>";
         });
     }
