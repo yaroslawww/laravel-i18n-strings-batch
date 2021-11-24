@@ -54,7 +54,7 @@ i18n_strings_batch_json("modal-confirmation")
 
 ```html
 <licenses-list
-    :i18n-batch='@i18nBatch(licenses-list)'
+    :i18n-batch='@i18nBatch("licenses-list")'
 />
 <!-- or -->
 <licenses-list
