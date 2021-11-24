@@ -22,6 +22,8 @@ As usually js strings has other formatting for `choise` and others - you will wa
 directory and call batches without specify directory each time:
 
 ```injectablephp
+use I18nStringsBatch\I18nStringsBatchManager;
+
 class AppServiceProvider extends ServiceProvider
 {
     public function register()
