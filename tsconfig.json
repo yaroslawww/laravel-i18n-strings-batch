@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "rootDir": "resources/js",
+        "outDir": "resources/dist/js",
+        "baseUrl": ".",
+        "paths": {
+            "@/*": [
+                "resources/js/*"
+            ],
+        },
+        "target": "esnext",
+        "module": "esnext",
+        // this enables stricter inference for data properties on `this`
+        "strict": true,
+        "jsx": "preserve",
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "types": []
+    },
+    "exclude": [
+        "node_modules",
+    ]
+}

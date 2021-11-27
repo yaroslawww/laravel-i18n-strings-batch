@@ -40,7 +40,10 @@ Add alias
 
 ```json
 alias: {
-'@i18nBatch': path.resolve('vendor/yaroslawww/laravel-i18n-strings-batch/resources/js/vue'),
+// for typescript
+'@i18nBatch': path.resolve('vendor/yaroslawww/laravel-i18n-strings-batch/resources/js/vue')
+// for js
+'@i18nBatch': path.resolve('vendor/yaroslawww/laravel-i18n-strings-batch/resources/dist/js/vue'),
 },
 ```
 
