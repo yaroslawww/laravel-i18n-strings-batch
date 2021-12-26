@@ -2,6 +2,7 @@
 
 [![Packagist License](https://img.shields.io/packagist/l/yaroslawww/laravel-i18n-strings-batch?color=%234dc71f)](https://github.com/yaroslawww/laravel-i18n-strings-batch/blob/master/LICENSE.md)
 [![Packagist Version](https://img.shields.io/packagist/v/yaroslawww/laravel-i18n-strings-batch)](https://packagist.org/packages/yaroslawww/laravel-i18n-strings-batch)
+[![Total Downloads](https://img.shields.io/packagist/dt/yaroslawww/laravel-i18n-strings-batch)](https://packagist.org/packages/yaroslawww/laravel-i18n-strings-batch)
 [![Build Status](https://scrutinizer-ci.com/g/yaroslawww/laravel-i18n-strings-batch/badges/build.png?b=master)](https://scrutinizer-ci.com/g/yaroslawww/laravel-i18n-strings-batch/build-status/master)
 [![Code Coverage](https://scrutinizer-ci.com/g/yaroslawww/laravel-i18n-strings-batch/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/yaroslawww/laravel-i18n-strings-batch/?branch=master)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/yaroslawww/laravel-i18n-strings-batch/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/yaroslawww/laravel-i18n-strings-batch/?branch=master)
