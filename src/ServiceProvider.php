@@ -16,6 +16,10 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
         Blade::directive('transBatch', function ($expression) {
             return "<?php echo i18n_strings_batch_json($expression); ?>";
         });
+
+        $this->publishes([
+            __DIR__ . '/../resources/' => public_path('vendor/i18n_strings_batch'),
+        ], 'i18n-string-batch-resources');
     }
 
     public function register()

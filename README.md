@@ -65,6 +65,12 @@ i18n_strings_batch_json("modal-confirmation")
 
 ### Usage with vue
 
+Optionally publish assets
+
+```bash
+php artisan vendor:publish --tag=i18n-string-batch-resources --force
+```
+
 Example you can find [there](./docs/vue.md)
 
 ### Add directive to PHPStorm

@@ -26,7 +26,7 @@ class I18nStringsBatch
 
     /**
      * @param string|null $locale
-     * @return I18nStringsBatch
+     * @return static
      */
     public function setLocale(?string $locale): static
     {
@@ -45,7 +45,7 @@ class I18nStringsBatch
 
     /**
      * @param string $directoryPrefix
-     * @return I18nStringsBatch
+     * @return static
      */
     public function setDirectoryPrefix(string $directoryPrefix): static
     {
@@ -82,7 +82,7 @@ class I18nStringsBatch
 
     /**
      * @param int $jsonDepth
-     * @return I18nStringsBatch
+     * @return static
      */
     public function setJsonDepth(int $jsonDepth): static
     {

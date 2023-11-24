@@ -41,9 +41,13 @@ Add alias
 ```json
 alias: {
 // for typescript
-'@i18nBatch': path.resolve('vendor/yaroslawww/laravel-i18n-strings-batch/resources/js/vue')
+'@i18nBatch': path.resolve('public/vendor/i18n_strings_batch/js/vue'),
+// or    
+// '@i18nBatch': path.resolve('vendor/yaroslawww/laravel-i18n-strings-batch/resources/js/vue')
 // for js
-'@i18nBatch': path.resolve('vendor/yaroslawww/laravel-i18n-strings-batch/resources/dist/js/vue'),
+'@i18nBatch': path.resolve('public/vendor/i18n_strings_batch/dist/js/vue'),
+// or    
+// '@i18nBatch': path.resolve('vendor/yaroslawww/laravel-i18n-strings-batch/resources/dist/js/vue'),
 },
 ```
 
